@@ -1,0 +1,5 @@
+model,val_macro_f1
+TF-IDF baseline (02),0.8796
+"mDeBERTa (244901 rows), head_tail",0.9305
+"mDeBERTa (244901 rows), chunks",0.8935
+"mDeBERTa, head_tail on 3k TRAIN rows (overfit check)",0.9385

@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# Competition data (CC BY-NC-SA, course use only — never commit)
+data/raw/*
+!data/raw/.gitkeep
+
+# Model weights / checkpoints
+models/*
+!models/.gitkeep
+*.pt
+*.bin
+*.safetensors
+
+# LaTeX build files (reports/report.tex)
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

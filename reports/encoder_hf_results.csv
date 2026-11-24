@@ -1,0 +1,4 @@
+model,binary_macro_f1
+"specialist (03c), human vs fusion rows of val",0.9024
+specialist on 3k TRAIN rows (overfit check),0.9124
+"3-class encoder (03), same rows, human vs fusion",0.8555

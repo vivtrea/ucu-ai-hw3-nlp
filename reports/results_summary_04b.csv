@@ -1,0 +1,13 @@
+experiment,val_macro_f1
+"TF-IDF baseline, 60k (02)",0.8796
+"TF-IDF baseline, full (02b)",0.8984
+"encoder, 40k (03)",0.8999
+"encoder, full (03b)",0.9305
+"REFERENCE = encoder, full (03b)",0.9305
+E1: LM + stylometry features only (LightGBM),0.7607
+E1b: LM + stylometry + Binoculars (LightGBM),0.7774
+E2a: stack base models (encoders + TF-IDF),0.9702
+E2b: stack base models + LM/stylometry,0.9702
+E2c: stack base models + LM/stylometry + Binoculars,0.9705
+"E3: E2c + class weights (OOF, optimistic)",0.9711
+E3: held-out gain of weights (mean of 2 halves),0.0002
